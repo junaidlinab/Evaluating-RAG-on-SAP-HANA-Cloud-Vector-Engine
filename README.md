@@ -11,4 +11,15 @@ SAP HANA Cloud instance with Vector Engine enabled
 PAL (Predictive Analysis Library) enabled for BM25
 Embedding model: SAP_NEB.20240715
 Files
-companion_script.sql — Complete reproducible script: context store creation, 27 document inserts, embedding generation, HNSW index, all cosine queries, L2 queries, BM25 setup and queries, out-of-scope queries for confidence calibration, and metadata filtered queries.
+
+Companion script covers:
+
+Context store creation
+27 document inserts
+Embedding generation
+HNSW index creation
+Cosine similarity queries
+L2 distance queries
+BM25 setup and queries
+Out-of-scope queries for confidence calibration
+Metadata-filtered queries
